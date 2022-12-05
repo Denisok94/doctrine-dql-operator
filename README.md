@@ -7,15 +7,15 @@ Add sql operator `date`, `cast`, `to_char`, `date_trunc` in doctrine
 Run:
 
 ```bash
-composer require --prefer-dist denisok94/yii-helper
+composer require --prefer-dist denisok94/doctrine-dql-operator
 # or
-php composer.phar require --prefer-dist denisok94/yii-helper
+php composer.phar require --prefer-dist denisok94/doctrine-dql-operatorr
 ```
 
 or add to the `require` section of your `composer.json` file:
 
 ```json
-"denisok94/yii-helper": "*"
+"denisok94/doctrine-dql-operator": "*"
 ```
 
 ```bash
