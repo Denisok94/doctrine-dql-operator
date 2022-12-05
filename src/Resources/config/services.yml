@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: true
+        bind:
+
+    Mintrans\EntityGelarm\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection,DQL,Event,Exception,Model,Resources,Service/Signer}'

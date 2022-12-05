@@ -1,0 +1,22 @@
+{
+    "name": "denisok94/doctrine-dql-operator",
+    "description": "--",
+    "keywords": [
+        "doctrine-dql"
+    ],
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Denisok94",
+            "email": "denisok94@inbox.ru"
+        }
+    ],
+    "version": "v0.0.1",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Denisok94\\DoctrineDqlOperator\\": "src/"
+        }
+    }
+}
