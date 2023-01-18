@@ -29,6 +29,10 @@ php composer.phar update
 ```yaml
 # ~config/packages/doctrine.yaml
 doctrine:
+    dbal:
+        types:
+            timestamptz: Denisok94\DoctrineDqlOperator\DBAL\Timestamptz
+            money: Denisok94\DoctrineDqlOperator\DBAL\MoneyType
     orm:
         dql:
             string_functions:
