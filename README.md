@@ -34,6 +34,6 @@ doctrine:
             string_functions:
                 DATE: Denisok94\DoctrineDqlOperator\DQL\Date
                 CAST: Denisok94\DoctrineDqlOperator\DQL\Cast
-                to_char: Denisok94\DoctrineDqlOperator\DQL\ToChar
-                date_trunc: Denisok94\DoctrineDqlOperator\DQL\DateTrunc
+                TO_CHAR: Denisok94\DoctrineDqlOperator\DQL\ToChar
+                DATE_TRUNC: Denisok94\DoctrineDqlOperator\DQL\DateTrunc
 ```

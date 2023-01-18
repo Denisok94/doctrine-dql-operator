@@ -39,7 +39,7 @@ class ToChar extends FunctionNode
     public function getSql(SqlWalker $sqlWalker): string
     {
         return sprintf(
-            "to_char(%s, %s)",
+            "TO_CHAR(%s, %s)",
             $this->timestamp->dispatch($sqlWalker),
             $this->pattern->dispatch($sqlWalker)
         );
