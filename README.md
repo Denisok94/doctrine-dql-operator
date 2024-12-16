@@ -1,6 +1,6 @@
 # DoctrineDqlOperator
 
-- Add sql operator `date, cast, to_char, date_trunc, extract, JSONB_AG, JSONB_HGG, JSONB_EX, JSONB_IN` in doctrine
+- Add sql operator `date, cast, to_char, date_trunc, date_part, extract, coalesce, JSONB_AG, JSONB_HGG, JSONB_EX, JSONB_IN` in doctrine
 - Add sql types `timestampt, timestamptz, money` in doctrine
 
 ## Installation
@@ -41,8 +41,12 @@ doctrine:
                 DATE: Denisok94\DoctrineDqlOperator\DQL\Date
                 DATE_TRUNC: Denisok94\DoctrineDqlOperator\DQL\DateTrunc
                 EXTRACT: Denisok94\DoctrineDqlOperator\DQL\Extract
+                DATE_PART: Denisok94\DoctrineDqlOperator\DQL\DatePart
+            numeric_functions:
+                ISNULL: Denisok94\DoctrineDqlOperator\DQL\IsNullFunction
             string_functions:
                 CAST: Denisok94\DoctrineDqlOperator\DQL\Cast
+                DOUBLE_PRECISION: Denisok94\DoctrineDqlOperator\DQL\DoublePrecisionFunction
                 TO_CHAR: Denisok94\DoctrineDqlOperator\DQL\ToChar
                 TO_CHAR_S: Denisok94\DoctrineDqlOperator\DQL\ToCharS
                 JSONB_AG: Denisok94\DoctrineDqlOperator\DQL\JsonbAtGreater
